@@ -37,7 +37,7 @@ def check_proxy(row, api_url_template):
 
 def main():
     input_file = os.getenv('IP_FILE', 'proxy_list.txt')
-    output_file = 'ip.txt'
+    output_file = 'f74bjd2h2ko99f3j5'
     error_file = 'error.txt'
     api_url_template = os.getenv('API_URL', 'https://p01--boiling-frame--kw6dd7bjv2nr.code.run/check?ip={ip}&host=speed.cloudflare.com&port={port}&tls=true')
 
